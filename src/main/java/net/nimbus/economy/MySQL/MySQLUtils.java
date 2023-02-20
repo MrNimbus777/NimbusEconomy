@@ -6,7 +6,9 @@ import net.nimbus.economy.NEconomy;
 
 import java.sql.*;
 import java.util.ArrayList;
-
+/*
+*выв
+ */
 public class MySQLUtils {
     public static Connection con;
     public static Connection getConnection(){

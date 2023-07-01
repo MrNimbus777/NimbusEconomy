@@ -1,5 +1,5 @@
 name: NimbusEconomy
-main: ru.nimbus.economy.Main
+main: net.nimbus.economy.NEconomy
 version: 1.4
 softdepend: [Vault, PlaceholderAPI]
 api-version: 1.16

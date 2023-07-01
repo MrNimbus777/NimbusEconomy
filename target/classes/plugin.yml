@@ -1,0 +1,8 @@
+name: NimbusEconomy
+main: ru.nimbus.economy.Main
+version: 1.4
+softdepend: [Vault, PlaceholderAPI]
+api-version: 1.16
+commands:
+  eco:
+    aliases: [economy, balance, bal, money]

@@ -1,0 +1,36 @@
+Server:
+  name: '&fSer&aver&f'
+  prefix: '&f[&aS&f] '
+DataBase:
+  Enabled: false
+  adress: 'localhost'
+  name: 'database'
+  user: 'root'
+  password: 'password'
+Currencies:
+  Vault: # Delete if unnecessary
+    id: 'silver'
+    name: '&7silver'
+  custom: # to add a new currency "id: name"
+    gold: '&6gold'
+Messages:
+  for-players: '&cPlayer only command.'
+  Economy:
+    Success:
+      eco-set: "&fYou have successfully set &a{player}&f' balance to &a{amount}&f {currency}."
+      eco-add: '&fYou have successfully give &a{player} &a{amount}&f {currency}.'
+      eco-pay-from: '&fYou have successfully paid &a{player}&f &a{amount}&f {currency}.'
+      eco-pay-to: '&fВы получили &a{amount}&f {currency}&f от игрока &a{player}&f.'
+    Errors:
+      no-permissions: '&cNo permissions for this command.'
+      incorrect-number: '&cIncorrect number.'
+      incorrect-currency: '&cUnknown currency.'
+      incorrect-user: '&cUnknown player.'
+      insufficient: '&cYou do not have enough money.'
+    Usage:
+      eco-set: '&a/eco set [player] [amount] [currency]'
+      eco-give: '&a/eco give [player] [amount] [currency]'
+      eco-pay: '&a/eco pay [player] [amount] [currency]'
+      eco-info: '&a/eco info [player]'
+      eco: "&a/eco set - set player's balance.  /eco give - give currency to a player.  /eco pay - pay a player. /eco info - information about somebody's balance."
+    Info: '&fInformation about &a{player}&f:'

@@ -1,7 +1,7 @@
 package net.nimbus.economy;
 
 import org.bukkit.configuration.file.FileConfiguration;
-import ru.nimbus.economy.MySQL.MySQLUtils;
+import net.nimbus.economy.MySQL.MySQLUtils;
 
 import java.util.HashMap;
 
